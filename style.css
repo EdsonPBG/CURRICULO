@@ -2,32 +2,31 @@ body {
     margin: 0;
     height: 100%;
     display: flex;
-    flex-direction: column; 
-    justify-content: flex-start; 
+    flex-direction: column;
     align-items: center; 
     font-family: "Verdana", sans-serif;
     background-color: #e0baba;
     font-size: large;
-    padding-top: 20px; 
-    padding-left: 20px; 
-    position: relative; 
+    padding-top: 20px;
+    position: relative;
+    text-align: center
 }
 
-.container { 
+#container { 
     position: absolute;
-    top: 50px; 
-    right: 70px; 
+    top: 50px;
+    right: 70px;
     border-radius: 5%;
-    margin: 1px; 
-    
+    margin: 0;
 }
 
-.container img { 
+#container img { 
     border-radius: inherit; 
 }
 
 header {
-    margin-top: 20px; /* Adiciona espaço entre a foto e o cabeçalho */
+    margin-top: 20px; 
+    font-family: "Cabin", sans-serif;;
 }
 
 #funcao {
